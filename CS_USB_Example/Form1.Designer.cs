@@ -223,14 +223,14 @@ namespace UsbPrnControl
             // 
             this.checkBox_saveInput.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.checkBox_saveInput.AutoSize = true;
-            this.checkBox_saveInput.Checked = true;
-            this.checkBox_saveInput.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.checkBox_saveInput.Enabled = false;
             this.checkBox_saveInput.Location = new System.Drawing.Point(233, 233);
             this.checkBox_saveInput.Name = "checkBox_saveInput";
             this.checkBox_saveInput.Size = new System.Drawing.Size(49, 17);
             this.checkBox_saveInput.TabIndex = 98;
             this.checkBox_saveInput.Text = "input";
             this.checkBox_saveInput.UseVisualStyleBackColor = true;
+            this.checkBox_saveInput.Visible = false;
             this.checkBox_saveInput.CheckedChanged += new System.EventHandler(this.checkBox_saveTo_CheckedChanged);
             // 
             // textBox_saveTo
@@ -241,7 +241,7 @@ namespace UsbPrnControl
             this.textBox_saveTo.Name = "textBox_saveTo";
             this.textBox_saveTo.Size = new System.Drawing.Size(62, 20);
             this.textBox_saveTo.TabIndex = 14;
-            this.textBox_saveTo.Text = "usb_rx.txt";
+            this.textBox_saveTo.Text = "raw_tx.txt";
             // 
             // button_openFile
             // 
